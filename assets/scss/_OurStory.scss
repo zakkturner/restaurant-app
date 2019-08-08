@@ -1,0 +1,58 @@
+#OurStory {
+    padding: 100px 0;
+
+    .quote {
+        color: $paragraphColor;
+        margin: .5rem 0 3rem;
+
+        strong {
+            color: $black;
+            font-weight: 700;
+        }
+    }
+
+    .reserve-btn {
+        font-family: $displayFont;
+        display: inline-block;
+        padding: 20px 40px;
+
+        border: 1px solid $black;
+        text-align: center;
+        text-decoration: none;
+        color: $black;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            background: $red;
+            color: white;
+        }
+    }
+
+    .video-img {
+        max-width: 400px;
+        height: 550px;
+        background: linear-gradient(135deg, rgba(0, 0, 0, .1) 0, #002d77 100%);
+        background-image: linear-gradient(135deg, rgba(0, 0, 0, .1) 0, #000 100%), url("http://www.etbtravelnews.global/wp-content/uploads/2016/09/Live-fire-grill-at-Scarlett-Wine-Bar-Restaurant.jpg");
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Styles */
+    #OurStory {
+        padding: 50px 0;
+        .reserve-btn {
+            display: block;
+            margin: 0 0 35px 0;
+        }
+
+        .video-img {
+            margin-bottom: 5px;
+        }
+    }
+}

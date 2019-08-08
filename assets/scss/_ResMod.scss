@@ -1,0 +1,80 @@
+#Modal{
+    
+    position: relative;
+    width: 100%;
+    // .hide{
+    //     // display: none;
+//    .modal-box{
+    // .hide{
+    //    display: none;
+    //    position: absolute;
+    //    z-index: -90;
+    //    top:-999;
+    // }
+    .is-active{
+        width: 100%;
+        position: fixed; 
+    z-index: 50;
+    margin: 0 auto !important;
+    
+        overflow: auto;
+        .res-box{
+            position: fixed;
+            z-index: 22;
+            background: white;
+            width: 25%;
+            height: 400px;
+            opacity: 1;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 5px;
+            .fa{
+                float: right;
+                padding: 5px;
+                transition: all .5s ease-in-out;
+                &:hover{
+                    color: red;
+                }
+            }
+            h5{
+                text-align: center;
+                margin: 45px 0;
+            }
+            input{
+                margin: 0 auto 15px;
+                display: block;
+                padding: 5px 15px;
+                width: 150px;
+            }
+            .select{
+                display: block;
+                margin: 0 auto 55px;
+                width: 150px;
+                padding: 5px 15px;
+            }
+            a{
+                text-align: center;
+                display: block;
+            }
+        }
+        .modal-bg{
+            background: black;
+            height: 100vh;
+            width: 100%;
+            opacity: .5;
+        }
+        
+       
+    }
+   }
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+}
